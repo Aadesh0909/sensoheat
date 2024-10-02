@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.logo {
+    display: none;
+}
+  @media (max-width: 768px) { 
+    .logo{
+        display: block;
+        width: 70%;
+        height: 50px;
+    }
+}
+@media (max-width:767px){
+    .header-hide{
+        display: none;
+    }
+    }
+@media (max-width:767px){
+    .navbar{
+        position:relative;
+        margin-top:40px;
+    }
+}
+.contact-bar{
+    display: none;
+}
+@media(max-width:767px){
+.contact-bar{
+    position: absolute;
+    top:5px;
+    display: block;
+    display: flex;
+ }
+}
+.contact-bar h2{
+    font-size: 14px;
+    color:#114372 ;
+}
+.contact-bar span{
+    color:#e26229;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: #fff;
+}
+.navbar li, a{
+    font-weight: 500;
+    padding: 16px 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+    font-size: 16px;
+}
+.home-active{
+    border-bottom: 2px solid #e26229;
+}
+.nav-hover li:hover{
+    border-bottom: 2px solid #e26229;
+    color: #fff;
+}
+.navbar li, a:hover{
+    color: #fff;
+}
+.navbar{
+    background: #114372;
+    padding: 0 0;
+}
+.nav-item:last-child{
+    text-decoration: underline;
+}
+/* navbar-social media icon section start */
+.icon li a{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+@media (max-width: 991.98px) { 
+    .icon{
+        display: none;
+    }
+    .home-active{
+        border-bottom: 0;
+    }
+    .nav-hover li:hover {
+      border-bottom: none;
+    }
+ }
+ /* navbar-social media icon section end */
+ .mail-icon{
+    background: url(../images/contact-icon-17.png);
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    right: 30px;
+    bottom: 30px;
+ }
+ .mail-icon:hover{
+    background: url(../images/contact-icon-hover.png);
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    right: 30px;
+    bottom: 30px;
+ }
+ /* sticky contact icon section end */
+ /* Product dropdown menu start*/
+.dropdown-menu li{
+    padding: 0 0;
+ }
+ .dropdown-menu li:hover{
+    border-bottom: 0;
+ }
+ .dropdown-menu{
+    padding: 0 0;
+ }
+ .dropdown-menu li a{
+    text-decoration: none;
+ }
+ .dropdown-menu li a:hover{
+    color: #e26229;
+ }
+ .navbar-nav li:hover>ul.dropdown-menu{
+    display: block;
+ }
+ .dropdown-submenu{
+    position: relative;
+ }
+ .dropdown-submenu>.dropdown-menu{
+    top: 0;
+    margin-top: -5px;
+    left: 100%;
+ }
+ .dropdown-menu>li>a:hover:after{
+    transform: rotate(-90deg);
+ }
+ .dropdown-item, .dropdown-submenu{
+    line-height: 18px;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #878787;
+ }
+ ul .dropdown-menu, a .dropdown-item:hover{
+    color: #e26229;
+ }
+ @media (max-width: 991.98px) {  
+    .dropdown-menu{
+    padding: 5px 15px 5px 25px;
+    background-color: #114372;
+}
+}
+@media (max-width: 991.98px) {  
+    .dropdown-menu li a{
+    color: #fff;
+}
+}
+ /* product dropdown menu end */
+ /* header logo & contact us section starts */
+.senso-logo{
+    margin: 10px 3px;
+}
+.contact-content h4{
+    color: #114372;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.contact-content h4 span{
+    color: #e26229;
+}
+@media (min-width: 1200px) { 
+    .contact-content{
+        padding-left: 200px;
+    }
+}
+@media (min-width: 768px) { 
+    .contact-content{
+        padding-right: 45px;
+    }
+}
+/* header section ends */
+/*  Portable electrode drying ovens-M.S. section */
+@media (max-width: 767.98px) { 
+    .product-view{
+        padding: 0 25px;
+    } 
+}
+
+.electorde-flux-ovens h3{
+    font-size: 18px;
+    color: #e26229;
+    padding: 8px 0 5px 10px;
+    margin-top: 25px;
+}
+.industrial-ovens h1{
+    font-size: 18px;
+    color: #e26229;
+}
+.product-list li{
+    list-style: none;
+    margin-left: 10px;
+}
+.specification li{
+    list-style: none;
+}
+.product-list li a{
+    color: #878787;
+    font-size: 12px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.product-list li a:hover{
+    color: #e26229;
+}
+.poratble-electrode{
+   margin: 15px 5px 0 15px;
+}
+.poratble-electrode p{
+    font-size: 14px;
+    color: #363535;
+    line-height: 22px;
+}
+.poratble-electrode h4{
+    font-size: 18px;
+    color: #363535;
+}
+.electrode-spec li{
+    list-style: none;
+    font-size: 13px;
+    padding: 3px 0;
+    color: #363535;
+}
+.electrode-spec div:first-child li{
+    color: #878787;
+}
+.electrode-spec p{
+    font-size: 14px;
+    color: #363535;
+}
+.electrode-end{
+    padding-left: 0;
+    font-size: 14px;
+    margin: 5px 0;
+    color: #363535;
+}
+/*  Portable electrode drying ovens-M.S. section */
+.banner-image{
+    background-image: url(../images/electrode-flux-ovens/product-banner.jpg);
+    background-size: cover;
+    height: auto;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.products-footer .footer-submenu li a{
+    margin-left: 20px;
+    font-size: 12px;
+    color: #fff;
+}
+.products-footer li a{
+    color: #80c2ff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.products-footer li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.products-footer li{
+    border-top: 1px solid #80c2ff;
+    padding: 9px 0;
+    list-style: none;
+}
+.products-footer li:last-child{
+    border-bottom: 1px solid #80c2ff;
+}
+.products-footer h4{
+    font-size: 20px;
+    color: #fff;
+    padding: 30px 0 20px;
+}
+/* footer banner section end */
+/* Portable electrode drying ovens-S.S. section */
+.drying-oven h4{
+    font-size: 18px;
+    color: #363535;
+    margin-top: 25px;
+}
+.drying-oven p{
+    font-size: 14px;
+    color:  #363535;
+    line-height: 22px;
+    padding-right: 40px;
+}
+.drying-oven{
+    margin-left: 15px;
+}
+/* Portable electrode drying ovens-S.S. section */
+/* Welding flux Drying / Holding Oven start */
+.welding-flux h4{
+    font-size: 18px;
+    color: #363535;
+    margin-top: 10px;
+}
+.welding-flux p{
+    margin-top: 8px;
+    font-size: 14px;
+    color: #363535;
+    line-height: 22px;
+    padding-right: 5px;
+}
+/* copyrightbar footer */
+.container p{
+    font-size: 18px;
+    color: #3b3b3b;
+    margin: 10px 0px 0;
+    line-height: 22px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+ .footer {
+    background: #114372;
+    padding: 0 5px 10px 5px;
+}
+.footer p {
+    color: #fff;
+    font-size: 12px;
+}
+.footer p a {
+    color: #e26229;
+    font-size: 12px;
+    text-decoration: none;
+}

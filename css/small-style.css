@@ -1,0 +1,413 @@
+*{
+    font-family: 'Roboto Slab', serif;
+  }
+  .logo {
+    display: none;
+}
+  @media (max-width: 768px) { 
+    .logo{
+        display: block;
+        width: 70%;
+        height: 50px;
+    }
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: #fff;
+}
+.navbar li, a{
+    font-weight: 500;
+    padding: 16px 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+    font-size: 16px;
+}
+.home-active{
+    border-bottom: 2px solid #e26229;
+}
+.nav-hover li:hover{
+    border-bottom: 2px solid #e26229;
+    color: #fff;
+}
+.navbar li, a:hover{
+    color: #fff;
+}
+.navbar{
+    background: #114372;
+    padding: 0 0;
+}
+.nav-item:last-child{
+    text-decoration: underline;
+}
+ /* Product dropdown menu start*/
+ .dropdown-menu li{
+  padding: 0 0;
+}
+.dropdown-menu li:hover{
+  border-bottom: 0;
+}
+.dropdown-menu{
+  padding: 0 0;
+}
+.dropdown-menu li a{
+  text-decoration: none;
+}
+.dropdown-menu li a:hover{
+  color: #e26229;
+}
+.navbar-nav li:hover>ul.dropdown-menu{
+  display: block;
+}
+.dropdown-submenu{
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu{
+  top: 0;
+  margin-top: -5px;
+  left: 100%;
+}
+.dropdown-menu>li>a:hover:after{
+  transform: rotate(-90deg);
+}
+.dropdown-item, .dropdown-submenu{
+  line-height: 18px;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #878787;
+}
+ul .dropdown-menu, a .dropdown-item:hover{
+  color: #e26229;
+}
+@media (max-width: 991.98px) {  
+  .dropdown-menu{
+  padding: 5px 15px 5px 25px;
+  background-color: #114372;
+}
+}
+@media (max-width: 991.98px) {  
+  .dropdown-menu li a{
+  color: #fff;
+}
+}
+/* product dropdown menu end */
+/* header logo & contact us section starts */
+.senso-logo{
+  margin: 10px 3px;
+}
+.contact-content h4{
+  color: #114372;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.contact-content h4 span{
+  color: #e26229;
+}
+@media (min-width: 1200px) { 
+  .contact-content{
+      padding-left: 200px;
+  }
+}
+@media (min-width: 768px) { 
+  .contact-content{
+      padding-right: 45px;
+  }
+}
+/* header section ends */
+/* Header code for responsive view */
+
+@media (max-width:767px){
+  .header-hide{
+      display: none;
+  }
+  }
+@media (max-width:767px){
+  .navbar{
+      position:relative;
+      margin-top:40px;
+  }
+}
+.contact-bar{
+  display: none;
+}
+@media(max-width:767px){
+.contact-bar{
+  position: absolute;
+  top:5px;
+  display: block;
+  display: flex;
+}
+}
+.contact-bar h2{
+  font-size: 14px;
+  color:#114372 ;
+}
+.contact-bar span{
+  color:#e26229;
+}
+
+/* end */
+/* navbar-social media icon section start */
+.icon li a{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+@media (max-width: 991.98px) { 
+    .icon{
+        display: none;
+    }
+    .home-active{
+        border-bottom: 0;
+    }
+    .nav-hover li:hover {
+      border-bottom: none;
+    }
+ }
+  /* navbar */
+  *{
+    font-family: 'Roboto Slab', serif;
+  }
+  .h3, h3{
+  font-size: 18px;
+  color: #e26229;
+  padding: 8px 0px 8px 10px;
+  }
+  .ul-items li a {
+    text-decoration: none;
+    color: #e26229;
+    font-size: 12px;
+    font-weight: 400;
+    
+  }
+  ul {
+    list-style-type: none;
+  }
+  @media (min-width: 576px) { 
+    
+  }
+  /* boxv stat */
+  .menu li a:hover {
+    color: #e26229;
+   }
+  
+  .products {
+  background: url(../images/teflon/product-banner.jpg);
+  background-size: cover;
+  }
+  
+  .products li a {
+  font-size: 13px;
+  color: #80c2ff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  }
+  
+  .products h4 {
+  font-size: 20px;
+  color: #fff;
+  margin: 30px 0px 20px;
+  }
+  
+  .glyphicon-menu-right:after {
+  content: "\e258";
+  }
+  
+  h4 {
+  font-size: 18px;
+  }
+  
+  .products li {
+  list-style: none;
+  padding: 9px 0px;
+  border-top: 1px solid #80c2ff;
+  }
+  
+  .products :hover {
+  color: #fff9f6;
+  }
+  
+  .menu li a {
+  font-size: 12px;
+  color: #fff;
+  margin-left: 20px;
+  }
+  
+  .col-md-6 {
+  float: left;
+  }
+  
+  
+  
+  .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  
+  .menu li {
+  border: none;
+  }
+  
+  .h4 {
+  font-size: inherit;
+  }
+  
+  div,
+  ul,
+  li {
+  margin: 0px;
+  padding: 0px;
+  }
+  /* footer */
+  .footer p{
+    text-align: center;
+  }
+  
+  .footer-data{
+    background-color:#114372;
+  }
+  
+  .footer-data a{
+    color:#e26229;
+  }
+  /* logo*/.mail-icon{
+  background:url(../images/teflon/contact-icon-17.png);
+  position:fixed;
+  right:30px;
+  bottom:30px;
+  height:50px;
+  width:50px;
+  z-index:10000
+  }
+  .mail-icon:hover{
+  background:url(../images/teflon/contact-icon-hover.png);
+  }
+  
+  
+  /* js slider */
+  *{
+  padding:0;
+  margin:0;
+  }
+  .modal-dialog {
+  max-width: 90%;
+  margin: 1.75rem auto;
+  
+  }
+  
+  .modal-content {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  overflow: hidden;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+  width: 10%;
+  color: white;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .image-number {
+  position: absolute;
+  /* {% comment %} top: 15px; */
+  /* left: 15px; {% endcomment %} */
+  background-color: rgba(0, 0, 0, 0);
+  /* {% comment %} padding: 5px 10px; {% endcomment %} */
+  /* {% comment %} border-radius: 5px; {% endcomment %} */
+  }
+  
+  .close-button {
+  position: absolute;
+  /* {% comment %} top: 15px; */
+  right: 15px;
+  /* color: white; {% endcomment %} */
+  font-size: 24px;
+  cursor: pointer;
+  
+  color: white;
+  
+  }
+  
+  .carousel-inner img {
+  display: block;
+  margin: 0 auto;
+  max-height: 80vh;
+  }
+  
+  a:hover{
+  color: white;
+  }
+  .banner-image{
+    background-image: url(../images/electrode-flux-ovens/product-banner.jpg);
+    background-size: cover;
+    height: auto;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.products-footer .footer-submenu li a{
+    margin-left: 20px;
+    font-size: 12px;
+    color: #fff;
+}
+.products-footer li a{
+    color: #80c2ff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.products-footer li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.products-footer li{
+    border-top: 1px solid #80c2ff;
+    padding: 9px 0;
+    list-style: none;
+}
+.products-footer li:last-child{
+    border-bottom: 1px solid #80c2ff;
+}
+.products-footer h4{
+    font-size: 20px;
+    color: #fff;
+    padding: 30px 0 20px;
+}
+/* footer banner section end */
+/* copyrightbar footer */
+.container p{
+  font-size: 18px;
+  color: #3b3b3b;
+  margin: 10px 0px 0;
+  line-height: 22px;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.footer {
+  background: #114372;
+  padding: 0 5px 10px 5px;
+}
+.footer p {
+  color: #fff;
+  font-size: 12px;
+}
+.footer p a {
+  color: #e26229;
+  font-size: 12px;
+  text-decoration: none;
+}
